@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1021901834181",
+    "firebase_url": "https://mobileapp-3223a.firebaseio.com",
+    "project_id": "mobileapp-3223a",
+    "storage_bucket": "mobileapp-3223a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1021901834181:android:c424e0f07153fe71",
+        "android_client_info": {
+          "package_name": "com.bahasakita.mobileapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1021901834181-2sacdnf7qfpu0vlvginqboad9rqddb2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bahasakita.mobileapp",
+            "certificate_hash": "188e17b2eea477ac4459c12469025c02f33d1536"
+          }
+        },
+        {
+          "client_id": "1021901834181-v9eroqu0duohmu455otib11did2gkgpk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-P3t9UldUjWTgEkVc3gOSimZH1j5oFog"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1021901834181-v9eroqu0duohmu455otib11did2gkgpk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

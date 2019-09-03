@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">MobileAPP</string>
+
+    <string name="app_logo">Application Logo</string>
+    <string name="username">Username</string>
+    <string name="pswd_icon">pswd icon</string>
+    <string name="login">SIGN IN</string>
+    <string name="sign_up">CREATE ACCOUNT</string>
+    <string name="password">Password</string>
+    <string name="show_password">Show Password</string>
+    <string name="name">Name</string>
+    <string name="email">Your Email Address</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="privacy_policy">By continuing, you agree to Indira Conditions of Use and Privacy Notice.</string>
+    <string name="createAccount">CREATE YOUR INDIRA ACCOUNT</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="nav_home">Home</string>
+    <string name="com">Communicate</string>
+    <string name="nav_play">Play</string>
+
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="location">Pondok Kelapa</string>
+    <string name="appLogo">Application Logo</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="footer">BahasaKita 2019</string>
+    <string name="create_password">Create Password</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="sign_in_now">SIGN-IN NOW</string>
+    <string name="verify_email_address">Verify Email Address</string>
+    <string name="OTPText">To verify your email, we\'ve sent a One\nTime Password (OTP) to example@mail.com\n(change)</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="resend_otp">Resend OTP</string>
+
+    <string name="com_auth0_client_id">4GcRorLB1o6jGSUmf1bY8fsLXa1BLKcO</string>
+    <string name="com_auth0_domain">bahasakitaxgrit.auth0.com</string>
+</resources>
