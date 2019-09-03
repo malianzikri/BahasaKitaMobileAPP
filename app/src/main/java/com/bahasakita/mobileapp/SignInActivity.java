@@ -102,8 +102,6 @@ public class SignInActivity extends AppCompatActivity {
                 String dataPass = pswd.getText().toString();
 
                 if(vEmail && vPass){
-
-
                     mAuth.signInWithEmailAndPassword(dataEmail, dataPass)
                             .addOnCompleteListener(SignInActivity.this, new OnCompleteListener<AuthResult>() {
                                 @Override
@@ -127,11 +125,9 @@ public class SignInActivity extends AppCompatActivity {
 
                                     }
 
-                                    // ...
+
                                 }
                             });
-
-
                 }
 
             }
