@@ -104,20 +104,32 @@ public class SignInActivity extends AppCompatActivity {
                 if(vEmail && vPass){
 
 
-                    if(!dataEmail.equals("user@mail.com") && !dataPass.equals("123456")){
-                        email_layout.setError("Wrong Email");
-                        password_layout.setError("Wrong Password");
-                    }else if(!dataEmail.equals("user@mail.com")){
-                        email_layout.setError("Wrong Email");
-                    }else if(!dataPass.equals("123456")){
-                        password_layout.setError("Wrong Password");
-                    }else{
-                        email_layout.setError(null);
-                        password_layout.setError(null);
-                        Toast.makeText(SignInActivity.this, "SIGN IN SUCCESS", Toast.LENGTH_SHORT).show();
-                       /* Intent it = new Intent(LoginActivity.this, HomeActivity.class);
-                        startActivity(it);*/
-                    }
+                    mAuth.signInWithEmailAndPassword(dataEmail, dataPass)
+                            .addOnCompleteListener(SignInActivity.this, new OnCompleteListener<AuthResult>() {
+                                @Override
+                                public void onComplete(@NonNull Task<AuthResult> task) {
+                                    if (task.isSuccessful()) {
+                                        // Sign in success, update UI with the signed-in user's information
+
+                                        FirebaseUser user = mAuth.getCurrentUser();
+                                        if(user.isEmailVerified()){
+                                            Toast.makeText(SignInActivity.this, "SIGN IN SUCCESS", Toast.LENGTH_SHORT).show();
+                                            //lanjut ke home
+                                        }else{
+                                            Toast.makeText(SignInActivity.this, "Email Belum diverifikasi", Toast.LENGTH_SHORT).show();
+
+                                        }
+                                    } else {
+                                        // If sign in fails, display a message to the user.
+
+                                        email_layout.setError("Wrong Email");
+                                        password_layout.setError("Wrong Password");
+
+                                    }
+
+                                    // ...
+                                }
+                            });
 
 
                 }
